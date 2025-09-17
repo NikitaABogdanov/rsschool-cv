@@ -13,3 +13,7 @@ I want to become a highly qualified IT specialist!!!
 
 - Polotsk State University
   - Machines and Apparatus for Chemical Production and Building Material Enterprises
+
+# Work experience
+
+- Сompressor unit operator(2019-2021)
