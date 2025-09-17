@@ -8,3 +8,8 @@
 # About Me
 
 I want to become a highly qualified IT specialist!!!
+
+# Education
+
+- Polotsk State University
+  - Machines and Apparatus for Chemical Production and Building Material Enterprises
