@@ -4,3 +4,7 @@
 - E-mail: bogdanovnek@gmail.com
 - GitHub: NikitaABogdanov
 - Telegram: Nick
+
+# About Me
+
+I want to become a highly qualified IT specialist!!!
