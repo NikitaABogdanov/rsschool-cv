@@ -17,3 +17,8 @@ I want to become a highly qualified IT specialist!!!
 # Work experience
 
 - Сompressor unit operator(2019-2021)
+
+# Languages
+
+- Russian - native speaker
+- English - B1
