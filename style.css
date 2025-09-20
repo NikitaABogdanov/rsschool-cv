@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: rage-italic, SF-Arborcrest, sans-serif;
+}
+
+@font-face {
+  font-family: rage-italic;
+  src: url(./fonts/rage-italic.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Arborcrest;
+  src: url(./fonts/SF-Arborcrest-Light.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Arborcrest;
+  src: url(./fonts/SF-Arborcrest-Light-Oblique.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Arborcrest;
+  src: url(./fonts/SF-Arborcrest-Medium.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Arborcrest;
+  src: url(./fonts/SF-Arborcrest-Medium-Oblique.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Arborcrest;
+  src: url(./fonts/SF-Arborcrest-Heavy-Oblique.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SF-Arborcrest;
+  src: url(./fonts/SF-Arborcrest-Heavy.ttf);
+  font-display: swap;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #0c0c0e;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0 50px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.nav-list a {
+  cursor: pointer;
+}
