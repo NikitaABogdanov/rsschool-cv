@@ -93,6 +93,33 @@
           </li>
         </ul>
       </section>
+      <section class="example">
+        <h2 class="example__title">Code Example</h2>
+        <pre>
+          <code>
+            function topThreeWords(text) {
+            let result = [];
+            let preparedString = text.toLowerCase().replaceAll(/[^a-zA-Zа-яА-Я ']/g, "").replaceAll("  ", " ").trim().split(" ");
+            let set = new Set();
+            if (preparedString[0] === "" || preparedString[0] === "'") {
+                return []
+            } else {
+                for (let i = 0; i < preparedString.length; i++) {
+                  let wordCount = 0;
+                  for (let word of preparedString) {
+                    if (word === preparedString[i]) {
+                      wordCount += 1;
+                    }
+                  }
+                  set.add(`${preparedString[i]}:${wordCount}`);
+                }
+            }
+            result = [...set].sort((a, b) => b.at(-1) - a.at(-1));
+            return result.slice(0, 3).map(item => item.replaceAll(/[^a-zA-Zа-яА-Я ']/g, ""));
+          }
+          </code>
+        </pre>
+      </section>
     </main>
     <footer></footer>
   </body>

@@ -147,3 +147,19 @@
 .skills__list span {
   margin-left: 40px;
 }
+.example {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.example pre {
+  margin: 0 0 0 60px;
+}
+.example__title {
+  font-size: 45px;
+  margin: 100px 0 0 40px;
+}
+
+.example__list {
+  margin: 20px 0 0 60px;
+  font-size: 20px;
+}
