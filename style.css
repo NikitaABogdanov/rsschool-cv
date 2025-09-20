@@ -85,7 +85,6 @@
 .about-me--description {
   margin-top: 100px;
   max-width: 500px;
-  font-size: 20px;
 }
 
 .title {
@@ -93,5 +92,21 @@
 }
 
 .about-me--description-text {
-  margin-top: 20px;
+  margin: 20px 0 0 20px;
+  font-size: 20px;
+}
+
+.contacts {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.contacts__title {
+  font-size: 45px;
+  margin: 20px 0 0 40px;
+}
+
+.contacts__list {
+  margin: 20px 0 0 60px;
+  font-size: 20px;
 }
