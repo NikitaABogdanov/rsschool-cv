@@ -167,6 +167,7 @@
 .projects {
   max-width: 1440px;
   margin: 0 auto;
+  height: 80vh;
 }
 
 .projects__title {
@@ -200,4 +201,29 @@
 .project img {
   width: 100%;
   cursor: pointer;
+}
+
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #0c0c0e;
+  height: 20vh;
+}
+
+.footer__content {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-self: flex-end;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__content img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.footer__content p {
+  font-size: 45px;
 }
