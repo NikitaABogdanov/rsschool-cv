@@ -163,3 +163,41 @@
   margin: 20px 0 0 60px;
   font-size: 20px;
 }
+
+.projects {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.projects__title {
+  font-size: 45px;
+  margin: 100px 0 0 40px;
+}
+
+.projects__list {
+  margin: 20px auto;
+}
+
+.project {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.project a {
+  display: block;
+  width: 350px;
+}
+
+.project img {
+  width: 100%;
+  cursor: pointer;
+}
