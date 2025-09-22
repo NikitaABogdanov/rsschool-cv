@@ -24,7 +24,7 @@
       <section class="about-me" id="about">
         <div class="about-me--description">
           <h1 class="title">
-            Mikita Bahdanau<span> & </span><br>I am a frontend developer
+            Mikita Bahdanau<span> &amp; </span><br>I am a frontend developer
           </h1>
           <p class="about-me--description-text">
             I am a dedicated, organized and methodical individual. I have good
@@ -105,8 +105,8 @@
                   set.add(`${preparedString[i]}:${wordCount}`);
                 }
             }
-            result = [...set].sort((a, b) => b.at(-1) - a.at(-1));
-            return result.slice(0, 3).map(item => item.replaceAll(/[^a-zA-Zа-яА-Я ']/g, ""));
+            result = [...set].sort((a, b) =&gt; b.at(-1) - a.at(-1));
+            return result.slice(0, 3).map(item =&gt; item.replaceAll(/[^a-zA-Zа-яА-Я ']/g, ""));
           }
           </code>
         </pre>
