@@ -71,7 +71,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 40px;
+  font-size: 6vh;
   color: #fff;
 }
 
