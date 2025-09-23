@@ -71,7 +71,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 6vh;
+  font-size: 40px;
   color: #fff;
 }
 
@@ -143,15 +143,20 @@ main {
 .education {
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .education__title {
   font-size: 45px;
-  margin: 100px 0 0 40px;
+  margin: 100px 0 0 0;
+  align-self: center;
 }
 
 .education__list {
-  margin: 20px 0 0 60px;
+  margin: 20px 10px 0 0;
 }
 
 .education__list li {
