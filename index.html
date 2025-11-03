@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">My skills</a></li>
+          <li><a href="#example">Code example</a></li>
+          <li><a href="#projects">My projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about-me" id="about">
+        <div class="about-me--description">
+          <h1 class="title">
+            Mikita Bahdanau<span> & </span><br>I am a frontend developer
+          </h1>
+          <p class="about-me--description-text">
+            I am a dedicated, organized and methodical individual. I have good
+            interpersonal skills, am an excellent team worker and am keen and
+            very willing to learn and develop new skills. I am reliable and
+            dependable and often seek new responsibilities within a wide range
+            of employment areas. I have an active and dynamic approach to work
+            and getting things done. I am determined and decisive. I identify
+            and develop opportunities.
+          </p>
+        </div>
+
+        <img
+          class="portfolio-photo"
+          src="./img/portfolio.png"
+          alt="portfolio-photo">
+      </section>
+      <section class="contacts" id="contacts">
+        <h2 class="contacts__title">My Contacts</h2>
+        <ul class="contacts__list">
+          <li>Discord: Nikko Bogo#4133</li>
+          <li>Email: nik_bogdanovo@mail.ru</li>
+          <li>Polotsk, Belarus</li>
+        </ul>
+      </section>
+      <section class="education" id="education">
+        <h2 class="education__title">My Education</h2>
+        <ul class="education__list">
+          <li>Polotsk State University</li>
+          <li>
+            Machines and Apparatus for Chemical Production and Building Material
+            Enterprises
+          </li>
+          <li>RSSCHOOL frontend course</li>
+          <li>
+            Udemy Courses: <br>
+            <span
+              >The Complete Full-Stack Web Development Bootcamp Course by
+              Dr.Angela Yu
+            </span>
+            <br>
+            <span>Web-developer course by Ivan Petrichenko</span>
+          </li>
+        </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="skills__title">My Skills</h2>
+        <ul class="skills__list">
+          <li>Git/GitHub</li>
+          <li>HTML/HTML5</li>
+          <li>CSS3</li>
+          <li>JS6</li>
+          <li>
+            Languages:<br>
+            <span>Russian: Native</span><br>
+            <span>English: B1</span>
+          </li>
+        </ul>
+      </section>
+      <section class="example" id="example">
+        <h2 class="example__title">Code Example</h2>
+        <pre>
+          <code>
+            function topThreeWords(text) {
+            let result = [];
+            let preparedString = text.toLowerCase().replaceAll(/[^a-zA-Zа-яА-Я ']/g, "").replaceAll("  ", " ").trim().split(" ");
+            let set = new Set();
+            if (preparedString[0] === "" || preparedString[0] === "'") {
+                return []
+            } else {
+                for (let i = 0; i &lt; preparedString.length; i++) {
+                  let wordCount = 0;
+                  for (let word of preparedString) {
+                    if (word === preparedString[i]) {
+                      wordCount += 1;
+                    }
+                  }
+                  set.add(`${preparedString[i]}:${wordCount}`);
+                }
+            }
+            result = [...set].sort((a, b) => b.at(-1) - a.at(-1));
+            return result.slice(0, 3).map(item => item.replaceAll(/[^a-zA-Zа-яА-Я ']/g, ""));
+          }
+          </code>
+        </pre>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="projects__title">My projects</h2>
+        <ul class="projects__list">
+          <li class="project">
+            <a href="https://nikitaabogdanov.github.io/Perudo-game/"
+              ><img src="./img/perudo.png" alt="dice game"></a>
+            <p class="project__name">Perudo Game</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <a href="https://github.com/NikitaABogdanov"
+          ><img src="./img/github.png" alt="github"></a>
+        <a href="https://rs.school/courses/javascript"
+          ><img
+            src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg"
+            alt="rsschool logo"></a>
+        <p>2025</p>
+      </div>
+    </footer>
+  </body>
+</html>
